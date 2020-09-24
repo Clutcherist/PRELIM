@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed">
+	<meta charset="utf-8">
+	<title>PRELIM</title>
+</head>
+<body>
+	<h1>Survey Form</h1>
+
+	<div class="main">
+
+		<form action="mailto:giofriginal26@gmail.com" method="post" enctype="text/plain">
+
+		<h3>Answer the following questions correctly.</h3>
+
+		<div class="form">
+			<label for="name">Name</label><input class="ename" type="text" name="Name" id="name" placeholder="Enter your name">
+		</div>
+
+		<div class="form">
+			<label for="email">Email</label><input type="email" name="Email" id="email" placeholder="Enter your email address">
+		</div>
+
+		<div class="form">
+			<label for="scale">On a scale of 1-10, how good was it?</label><input type="tel" name="Scale" id="scale" placeholder="Enter a number between 1 and 10">
+		</div>
+
+		<div class="form">
+			<label for="where">Where did it happen?</label>
+			<select name="where"> 
+				<option>At home</option>
+				<option>At school</option>
+			</select>
+		</div>
+
+		<div class="form">
+			<label for="time">At what time of day did it happen?</label>
+				<input type="radio" name="Time" value="Morning"><label>Morning</label>
+				<br>
+				<input type="radio" name="Time" value="Afternoon"><label>Afternoon</label>
+				<br>
+				<input type="radio" name="Time" value="Evening"><label>Evening</label>
+		</div>
+
+		<div class="form">
+			<label for="emotion">What emotions did you experience? (Select all that apply)</label>
+				<input type="checkbox" name="Emotion" value="Excited"><label>Excited</label>
+				<input type="checkbox" name="Emotion" value="Humbled"><label>Humbled</label>
+				<input type="checkbox" name="Emotion" value="Elated"><label>Elated</label>
+				<input type="checkbox" name="Emotion" value="Loved"><label>Loved</label>
+				<input type="checkbox" name="Emotion" value="Enthusiastic"><label>Enthusiastic</label>
+		</div>
+
+		<div class="form">
+			<label for="experience">Please describe your positive experience.</label>
+			<textarea rows="5" cols="20" type="text" id="exp" name="Experience" placeholder="Enter your experience here..."></textarea>
+		</div>
+
+		<div class="form">
+			<input class="submit" type="submit" value="Submit">
+		</div>
+
+		</form>
+	</div>
+
+</body>
+</html>

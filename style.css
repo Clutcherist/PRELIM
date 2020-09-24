@@ -1,0 +1,44 @@
+
+
+body{
+	background-color: #a9d7e9/*#6ba2ce*/ /*#f3f3f3*/;
+}
+
+h1{
+	font-family: /*Open, Sans, Condensed*/ Playfair, Display;
+	text-align: center;
+}
+
+h3{
+	font-family: /*Open, Sans, Condensed*/ Playfair, Display;
+	font-weight: normal;
+	text-align: center;
+}
+
+.main{
+	background-color: #f3f3f3;
+	width: 55%;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	border-radius: 5px;
+}
+
+.form{
+	text-align: center;
+
+
+}
+
+.submit{
+	background-color: #6ba2ce;
+
+	color: white;
+
+	width: 65px;
+	height: 35px;
+
+	border-color: transparent;
+	border-radius: 5%;
+}
